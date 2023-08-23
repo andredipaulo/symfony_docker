@@ -3,15 +3,24 @@
 {% block title %}Register{% endblock %}
 
 {% block body %}
-    <h1>Register</h1>
+<div class="page">
+    <div class="formLogin">
 
-    {{ form_start(registrationForm) }}
-        {{ form_row(registrationForm.email) }}
-        {{ form_row(registrationForm.plainPassword, {
-            label: 'Password'
-        }) }}
-        {{ form_row(registrationForm.agreeTerms) }}
+        <h1>Registrar</h1>
+        <p>Digite os seus dados de acesso no campo abaixo para registar.</p>
 
-        <button type="submit" class="btn">Register</button>
-    {{ form_end(registrationForm) }}
+        {{ form_start(registrationForm) }}
+            {{ form_row(registrationForm.email) }}
+            {{ form_row(registrationForm.plainPassword, {
+                label: 'Password'
+            }) }}
+            {{ form_row(registrationForm.agreeTerms) }}
+            <div class="row">
+                <a href="/login">Logar</a>
+            </div>
+            <input type="submit" value="Enviar" class="btn" />
+        {{ form_end(registrationForm) }}
+
+    </div>
+</div>
 {% endblock %}
