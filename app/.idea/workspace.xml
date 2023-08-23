@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89700d88-b782-46b6-a61e-958fc3bf5058" name="Changes" comment="" />
+    <list default="true" id="89700d88-b782-46b6-a61e-958fc3bf5058" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1692741248883</updated>
       <workItem from="1692741250391" duration="12516000" />
-      <workItem from="1692754413059" duration="2335000" />
+      <workItem from="1692754413059" duration="3259000" />
     </task>
     <task id="LOCAL-00001" summary="Aplicação com symfony + docker">
       <created>1692756355416</created>
